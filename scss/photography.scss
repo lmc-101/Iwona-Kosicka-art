@@ -70,26 +70,35 @@ header, section, footer {
         :hover {
             color: #cfcfcf;
         }
+        
+        .clicked {
+            color: #cfcfcf;
+            }
     }
 }
 
 .back_click_place {
     height: 33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #cfcfcf;
+    
+    a {
+        text-decoration: none;
+        color: #cfcfcf;
+        font-size: 14px;
+    }
 }
 
-
-.slider_section {
-    margin-bottom: 33px;
-}
-.photo_show {
-    background-image: url(/Iwona-Kosicka-art/images/main/slider2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 825px;
+.back_arrows {
+    color: #cfcfcf;
+    font-size: 6px;
 }
 
-
+.uppercase {
+    text-transform: uppercase;
+}
 
 .portfolio_menu {
     
@@ -108,7 +117,8 @@ header, section, footer {
                 .transparent_box {
                 visibility: visible;
                 }
-            }    
+            } 
+            
         }
     }
 }
@@ -124,20 +134,20 @@ header, section, footer {
     justify-content: flex-end;
 }
 
-.design {
-    background-image:url(/Iwona-Kosicka-art/images/main/design_menu.jpg);
+.horses {
+    background-image:url(/Iwona-Kosicka-art/images/photography/01.jpg);
 }
 
-.photography {
-    background-image:url(/Iwona-Kosicka-art/images/main/photography_menu.jpg);
+.sea_winter {
+    background-image:url(/Iwona-Kosicka-art/images/photography/04.jpg);
 }
 
-.about {
-    background-image:url(/Iwona-Kosicka-art/images/main/aboutme_menu.jpg);
+.mountains {
+    background-image:url(/Iwona-Kosicka-art/images/photography/02.jpg);
 }
 
-.studio {
-    background-image:url(/Iwona-Kosicka-art/images/main/studio_menu.jpg);
+.sea_summer {
+    background-image:url(/Iwona-Kosicka-art/images/photography/03.jpg);
 }
 
 .transparent_box {
@@ -151,9 +161,7 @@ header, section, footer {
     align-items: center;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
+
 
 footer {
     .container {

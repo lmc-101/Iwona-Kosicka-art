@@ -70,31 +70,36 @@ header, section, footer {
         :hover {
             color: #cfcfcf;
         }
+        
+        .clicked {
+            color: #cfcfcf;
+            }
     }
 }
 
 .back_click_place {
     height: 33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #cfcfcf;
+    
+    a {
+        text-decoration: none;
+        color: #cfcfcf;
+        font-size: 14px;
+    }
 }
 
-
-.slider_section {
-    margin-bottom: 33px;
+.back_arrows {
+    color: #cfcfcf;
+    font-size: 6px;
 }
-.photo_show {
-    background-image: url(/Iwona-Kosicka-art/images/main/slider2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 825px;
-}
-
-
 
 .portfolio_menu {
     
     .container {
-        height: 843px;
+        height: 1281px;
         flex-direction: row;
         justify-content: space-between;
         align-content: space-between;
@@ -108,7 +113,8 @@ header, section, footer {
                 .transparent_box {
                 visibility: visible;
                 }
-            }    
+            } 
+            
         }
     }
 }
@@ -124,20 +130,28 @@ header, section, footer {
     justify-content: flex-end;
 }
 
-.design {
-    background-image:url(/Iwona-Kosicka-art/images/main/design_menu.jpg);
+.swing_one {
+    background-image:url(/Iwona-Kosicka-art/images/design/01.jpg);
 }
 
-.photography {
-    background-image:url(/Iwona-Kosicka-art/images/main/photography_menu.jpg);
+.swing_two {
+    background-image:url(/Iwona-Kosicka-art/images/design/02.jpg);
 }
 
-.about {
-    background-image:url(/Iwona-Kosicka-art/images/main/aboutme_menu.jpg);
+.tables {
+    background-image:url(/Iwona-Kosicka-art/images/design/05.jpg);
 }
 
-.studio {
-    background-image:url(/Iwona-Kosicka-art/images/main/studio_menu.jpg);
+.furniture {
+    background-image:url(/Iwona-Kosicka-art/images/design/03.jpg);
+}
+
+.lighting {
+    background-image:url(/Iwona-Kosicka-art/images/design/06.jpg);
+}
+
+.home_accesories {
+    background-image:url(/Iwona-Kosicka-art/images/design/07.jpg);
 }
 
 .transparent_box {

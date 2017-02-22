@@ -1,3 +1,4 @@
+
 * {
     font-family: Calibri, sans-serif;
 }
@@ -60,7 +61,6 @@ header, section, footer {
     li {
         display: inline-block;
         font-size: 15px;
-        font-family: sans-serif;
         
         a {
             text-decoration: none;
@@ -70,6 +70,10 @@ header, section, footer {
         :hover {
             color: #cfcfcf;
         }
+        
+        .clicked {
+            color: #cfcfcf;
+        }
     }
 }
 
@@ -77,82 +81,32 @@ header, section, footer {
     height: 33px;
 }
 
-
-.slider_section {
-    margin-bottom: 33px;
-}
-.photo_show {
-    background-image: url(/Iwona-Kosicka-art/images/main/slider2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 825px;
-}
-
-
-
-.portfolio_menu {
-    
-    .container {
-        height: 843px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-wrap: wrap;
-        
-        a {
-            text-decoration: none;
-            color: #000000;
-        
-            :hover {
-                .transparent_box {
-                visibility: visible;
-                }
-            }    
-        }
-    }
-}
-
-.photo_menu {
-    width: 540px;
-    height: 405px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.design {
-    background-image:url(/Iwona-Kosicka-art/images/main/design_menu.jpg);
-}
-
-.photography {
-    background-image:url(/Iwona-Kosicka-art/images/main/photography_menu.jpg);
-}
-
-.about {
-    background-image:url(/Iwona-Kosicka-art/images/main/aboutme_menu.jpg);
-}
-
-.studio {
-    background-image:url(/Iwona-Kosicka-art/images/main/studio_menu.jpg);
-}
-
-.transparent_box {
-    background-color: rgba(255, 255, 255, 0.8);
-    width:540px;
-    height: 75px;
-    visibility: hidden;
-    text-align: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .uppercase {
     text-transform: uppercase;
+}
+
+.photo_start {
+    margin-bottom: 33px;
+}
+.studio_photo {
+    background-image: url(/Iwona-Kosicka-art/images/studio/studio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 412px;
+}
+.description {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 33px;
+}
+
+.pictures_photo {
+    background-image: url(/Iwona-Kosicka-art/images/studio/studio2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
 }
 
 footer {
