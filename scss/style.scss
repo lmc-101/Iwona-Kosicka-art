@@ -1,3 +1,5 @@
+@import '_grid';
+    
 * {
     font-family: Calibri, sans-serif;
 }
@@ -9,8 +11,8 @@ header, section, footer {
 }
 
 .container {
-    width: 1100px;
-    //tu bym zrobila 70%, ale?
+    width: 100%;
+    max-width: 1100px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -26,16 +28,13 @@ header, section, footer {
     display: flex;
     justify-content: center;
     
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
 }
 
-.logo {
-    background-image: url(/Iwona-Kosicka-art/images/logo_100.png);
-    //skrocenie sciezki!
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 246px;
-    height: 155px;
-}
 
 .menu_place {
     height: 30px;
@@ -82,68 +81,83 @@ header, section, footer {
     margin-bottom: 33px;
 }
 .photo_show {
-    background-image: url(/Iwona-Kosicka-art/images/main/slider2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 825px;
+    
+    height: auto;
 }
-
 
 
 .portfolio_menu {
     
     .container {
-        height: 843px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-wrap: wrap;
+        height: auto;
+
         
-        a {
-            text-decoration: none;
-            color: #000000;
         
-            :hover {
-                .transparent_box {
-                visibility: visible;
-                }
-            }    
-        }
     }
 }
 
+/* grid!*/
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+
+[class*='col-'] {
+//    float: left;
+    min-height: 1px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
 .photo_menu {
-    width: 540px;
-    height: 405px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+
+    
+    img {
+        max-width: 100%;
+        width: inherit;
+        height: auto;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000000;
+        
+        &:hover {
+            .transparent_box {
+            visibility: visible;
+            }
+            }    
+        }
 }
 
-.design {
-    background-image:url(/Iwona-Kosicka-art/images/main/design_menu.jpg);
-}
-
-.photography {
-    background-image:url(/Iwona-Kosicka-art/images/main/photography_menu.jpg);
-}
-
-.about {
-    background-image:url(/Iwona-Kosicka-art/images/main/aboutme_menu.jpg);
-}
-
-.studio {
-    background-image:url(/Iwona-Kosicka-art/images/main/studio_menu.jpg);
-}
+//.design {
+//    float: left;
+//}
+//
+//.photography {
+//    float: right;
+//}
+//
+//.about {
+//    float: left;
+//}
+//
+//.studio {
+//    float: right;
+//}
 
 .transparent_box {
     background-color: rgba(255, 255, 255, 0.8);
-    width:540px;
-    height: 75px;
+    width: inherit;
     visibility: hidden;
     text-align: center;
     display:flex;

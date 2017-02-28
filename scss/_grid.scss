@@ -1,0 +1,14 @@
+@for $col from 1 through 4 {
+    .col-#{$col} {
+        width: $col * 49.091%; //jeden rzad
+//                width: 100%/$col; 
+    }
+}
+
+@media (max-width: 540px) {
+    [class*='col-'] {
+        float: none;
+        width: 100%;
+        
+    }
+}
