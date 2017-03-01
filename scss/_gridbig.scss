@@ -1,4 +1,4 @@
-@for $col from 1 through 4 {
+@for $col from 1 through 6 {
     .col-#{$col} {
         width: $col * 49.091%;
     }

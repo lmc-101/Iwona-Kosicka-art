@@ -1,0 +1,40 @@
+footer {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+}
+
+.bottom_line {
+    height: 0.1em;
+    width: 45%;
+    background-color: #cfcfcf;
+}
+.social_media {
+    margin: 4px;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#facebook_logo {
+    background-image: url(/Iwona-Kosicka-art/images/facebook.png);
+    margin-right: 8px;
+}
+
+#pinterest_logo {
+    background-image: url(/Iwona-Kosicka-art/images/pinterest.png);
+}
+
+#instagram_logo {
+    background-image: url(/Iwona-Kosicka-art/images/instagram.png);
+    margin-left: 8px;
+}
+
+#twitter_logo {
+    background-image: url(/Iwona-Kosicka-art/images/twitter.png);
+}
