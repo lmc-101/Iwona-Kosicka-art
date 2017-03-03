@@ -1,106 +1,38 @@
+@import 'reset';
 @import 'main';
 @import 'header';
 @import 'backclick';
-@import 'photomenu';
-@import 'grid';
 @import 'footer';
 
-
-.logo_place {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.logo {
-    background-image: url(/Iwona-Kosicka-art/images/logo_100.png);
-    //skrocenie sciezki!
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 246px;
-    height: 155px;
-}
-
-.menu_place {
-    height: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-.nav_border_line {
-    background-color: #cfcfcf;
-    width: 100%;
-    height: 1.5px;
-}
-
-.menu {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    li {
-        display: inline-block;
-        font-size: 15px;
-        font-family: sans-serif;
-        
-        a {
-            text-decoration: none;
-            color: #000000;
-        }
-        
-        :hover {
-            color: #cfcfcf;
-        }
-        
-        .clicked {
-            color: #cfcfcf;
-        }
-    }
-    
-}
-
-
-.back_click_place {
-    height: 33px;
-    margin-bottom: 33px;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-
-.photo {
-    height: 443px;
-    background-image: url(/Iwona-Kosicka-art/images/aboutme/ja1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-}
 
 .about_author {
     .container {
         flex-direction: row;
     }
 }
-  
+
 .description {
-//    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 5vw;
     
     p {
-        font-size: 14px;
-        line-height: 25px;
-    }
+        font-size: 1.25vw;
+        line-height: 2vw;
+    } 
+}
+
+.photo_author {
     
+    .container {
+        
+        img {
+            max-width: 1100px;
+            width: 100%;
+            height: auto;
+        }
+    }
 }
