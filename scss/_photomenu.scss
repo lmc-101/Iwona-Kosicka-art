@@ -14,12 +14,16 @@
     float: right;
 }
 
+
 .bottom {
-    margin-top: -5%;
-    // change through media qeries
+    margin-top: 1vw;
+    margin-bottom: 5vw;
 }
 
+
 .photo_menu {
+    max-height: 405px;
+    
     
     img {
         max-width: 100%;
@@ -30,27 +34,31 @@
     a {
         text-decoration: none;
         color: #000000;
+        display: inline-block;
+        position: relative;
         
         &:hover {
             .transparent_box {
-            visibility: visible;
+                display: flex;
+                overflow: hidden;
             }
         }    
     }
 }
 
 .transparent_box {
+    display: none;
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
-    width: inherit;
-    visibility: hidden;
+    width: 100%;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-105%);
-    height: 5em;
+    transform: translateY(-10vw);
+    height: 10vw;
     
     h1 {
-        font-size: 1.5vw;
+        font-size: 1.75vw;
     }
+    
 }
