@@ -3,6 +3,8 @@
 @import 'header';
 @import 'backclick';
 @import 'footer';
+@import 'media';
+@import 'variables';
 
 .photo, .photo_description {
   margin-bottom: 2vw;  
@@ -11,7 +13,7 @@
 .photo {
     
     img {
-        max-width: 1100px;
+        max-width: $maxWidth;
         width: 100%;
         height: auto;
     }   
@@ -22,14 +24,14 @@
     .container {
         flex-direction: row;
         width: 60%;
-        font-size: 15px;
+        font-size: $fontSize;
         line-height: 20px;
         text-align: center;
         
         p {
             
             span {
-                color: #cfcfcf;
+                color: $mainColor;
             }
         }
     }

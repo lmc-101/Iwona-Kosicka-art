@@ -1,18 +1,20 @@
+@import 'variables';
+
 .back_click_place {
     height: 2em;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #cfcfcf;
+    color: $mainColor;
     
     a {
         text-decoration: none;
-        color: #cfcfcf;
-        font-size: 1em;
+        color: $mainColor;
+        font-size: $fontSize;
     }
 }
 
 .back_arrows {
-    color: #cfcfcf;
+    color: $mainColor;
     font-size: 0.5em;
 }

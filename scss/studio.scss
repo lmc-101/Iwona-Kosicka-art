@@ -3,6 +3,7 @@
 @import 'header';
 @import 'backclick';
 @import 'footer';
+@import 'variables';
 
 
 
@@ -11,7 +12,7 @@
     
     .container {
         img {
-            max-width: 1100px;
+            max-width: $maxWidth;
             width: 100%;
             height: auto;
         }
@@ -33,7 +34,7 @@
     margin-bottom: 5vw;
     
     p {
-        font-size: 1.25vw;
+        font-size: $fontSize;
         line-height: 2vw;
     }
 }
@@ -42,7 +43,7 @@
     
     .container {
         img {
-            max-width: 1100px;
+            max-width: $maxWidth;
             width: 100%;
             height: auto;
         }
