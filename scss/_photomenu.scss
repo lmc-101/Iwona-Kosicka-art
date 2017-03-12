@@ -17,8 +17,8 @@
 }
 
 
-.middle, .bottom {
-    margin-top: 1vw;
+.photo_row {
+    margin-top: 1.5vw;
 }
 
 .photo_menu {
@@ -56,9 +56,5 @@
     align-items: center;
     transform: translateY(-10vw);
     height: 10vw;
-    
-    h1 {
-//        font-size: 1.75vw;
-    }
     
 }
