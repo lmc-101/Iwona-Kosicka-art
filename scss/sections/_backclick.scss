@@ -1,0 +1,20 @@
+@import 'partials/variables';
+
+.back_click_place {
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $mainColor;
+    
+    a {
+        text-decoration: none;
+        color: $mainColor;
+        font-size: $fontSize;
+    }
+}
+
+.back_arrows {
+    color: $mainColor;
+    font-size: 0.5em;
+}

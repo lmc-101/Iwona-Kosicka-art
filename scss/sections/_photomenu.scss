@@ -1,0 +1,60 @@
+@import 'partials/variables';
+
+/* grid!*/
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.photo_row {
+    margin-top: 1.5vw;
+}
+
+.photo_menu {
+    max-height: 405px;
+    
+    
+    img {
+        max-width: 100%;
+        width: inherit;
+        height: auto;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $fontColor;
+        display: inline-block;
+        position: relative;
+        
+        &:hover {
+            .transparent_box {
+                display: flex;
+                overflow: hidden;
+            }
+        }    
+    }
+}
+
+.transparent_box {
+    display: none;
+    position: absolute;
+    background-color: $transparentColor;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10vw);
+    height: 10vw;
+    
+}

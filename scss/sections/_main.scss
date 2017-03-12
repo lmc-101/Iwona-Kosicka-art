@@ -1,0 +1,32 @@
+@import 'partials/variables';
+
+* {
+    font-family: Calibri, sans-serif;
+    font-size: $fontSize;
+}
+
+header, section, footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: $maxWidth;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0 3vw;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: $fontSize;
+}
