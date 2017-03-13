@@ -6,8 +6,8 @@
 @import 'partials/media';
 @import 'partials/variables';
 
-.photo, .photo_description {
-  margin-bottom: 2vw;  
+.photo_description {
+  margin-bottom: 1.5vw;  
 }
 
 .photo {
@@ -16,6 +16,7 @@
         max-width: $maxWidth;
         width: 100%;
         height: auto;
+        margin-bottom: 1.5vw;
     }   
 }
 
@@ -23,7 +24,7 @@
     
     .container {
         flex-direction: row;
-        width: 60%;
+        width: 80%;
         font-size: $fontSize;
         line-height: 20px;
         text-align: center;
@@ -35,4 +36,9 @@
             }
         }
     }
+}
+
+footer {
+    
+    margin-top: 3.5vw;
 }

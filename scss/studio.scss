@@ -3,6 +3,7 @@
 @import 'sections/header';
 @import 'sections/backclick';
 @import 'sections/footer';
+@import 'partials/media';
 @import 'partials/variables';
 
 
@@ -35,7 +36,7 @@
     
     p {
         font-size: $fontSize;
-        line-height: 2vw;
+        line-height: $lineHeight;
     }
 }
 
