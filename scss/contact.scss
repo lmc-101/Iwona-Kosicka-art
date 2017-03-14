@@ -1,0 +1,52 @@
+@import 'partials/reset';
+@import 'sections/main';
+@import 'sections/header';
+@import 'sections/backclick';
+@import 'sections/footer';
+@import 'partials/media';
+@import 'partials/variables';
+
+.contact_data {
+    .container {
+        flex-direction: row;
+    }
+}
+
+.contact {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3vw;
+    font-style: normal;
+    
+    p {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        
+        span {
+            color: $mainColor;
+        }
+        
+        a {
+            text-decoration: none;
+            color: $fontColor;
+        }
+        
+    } 
+}
+
+.photo_desk {
+    
+    .container {
+        
+        img {
+            max-width: $maxWidth;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
