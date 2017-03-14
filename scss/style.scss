@@ -1,14 +1,13 @@
 
 @import 'partials/reset';
+@import 'partials/grid';
+@import 'partials/media';
+@import 'partials/variables';
 @import 'sections/main';
 @import 'sections/header';
 @import 'sections/backclick';
 @import 'sections/photomenu';
-@import 'partials/grid';
 @import 'sections/footer';
-@import 'partials/media';
-@import 'partials/variables';
-
 
 .slider_section {
     margin-bottom: 3vw;
