@@ -1,6 +1,7 @@
 # Iwona-Kosicka-art
 
 Project for Iwona Kosicka - artist & furniture designer.
+(based on a .psd file)
 
 I used:
 
