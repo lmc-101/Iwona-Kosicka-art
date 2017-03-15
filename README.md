@@ -13,5 +13,3 @@ I used:
 - reset.css thanks to https://github.com/murtaugh
 
 Portfolio was made as a wordpress template, still waiting for client's requirements.
-
-Live: https://lmc-101.github.io/Iwona-Kosicka-art
