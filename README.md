@@ -1,4 +1,4 @@
-# Iwona-Kosicka-portfolio
+# Iwona-Kosicka-art
 
 Project for Iwona Kosicka - artist & furniture designer.
 
