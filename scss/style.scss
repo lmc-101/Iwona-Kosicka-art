@@ -1,31 +1,104 @@
 
 @import 'partials/reset';
-@import 'partials/grid';
-@import 'partials/media';
-@import 'partials/variables';
 @import 'sections/main';
 @import 'sections/header';
 @import 'sections/backclick';
 @import 'sections/photomenu';
 @import 'sections/footer';
+@import 'partials/grid';
+@import 'partials/media';
+@import 'partials/variables';
 
 .slider_section {
     margin-bottom: 3vw;
 }
 
-.photo_show {
-    height: auto;
-    
-    img {
-        max-width: $maxWidth;
-        width: 100%;
-        height: auto;
-    }
-}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
 
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
 
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
-
-
+//.photo_show {
+//    height: auto;
+//    
+//    .slider {
+//        position: relative;
+//        max-height: 825px;
+//        height: auto;
+//        height: 69.3vw;
+//        padding: 0px;
+//        margin: 0px;
+//        list-style-type: none;
+//        overflow: hidden;
+//        
+//        .slide {
+//        
+//        position: absolute;
+//        left: 0px;
+//        top: 0px;
+//        opacity: 0;
+//        z-index: 1;
+//
+//        -webkit-transition: opacity 1s;
+//        -moz-transition: opacity 1s;
+//        -o-transition: opacity 1s;
+//        transition: opacity 1s;
+//        
+//        :first-child {
+//          position: relative;
+//          display: block;
+//          float: left;
+//            
+//        img {
+//            max-width: $maxWidth;
+//            width: 100%;
+//            height: auto;
+//    
+//}    
+//            
+//        }
+//        }
+//        .showing {
+//        opacity: 1;
+//        z-index: 2;
+//        }
+//    }
+//    
+//    
+//}
+//
+//
+//@media only screen and (min-width: 1100px) {
+//    
+//    .slider {
+//        height: 825px;
+//    }
+//}
 

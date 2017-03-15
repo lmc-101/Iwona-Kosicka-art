@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Iwona Kosicka</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../js/responsiveslides.min.js"></script>
 </head>
 <body>
     <header>
@@ -39,8 +42,18 @@
     <section class='slider_section'>
         <div class='container'>
             <div class='photo_show'>
-                <ul class='slider'></ul>
-                <li><img src='../images/main/slider2.jpg'></li>
+               <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+                <ul class='rslides'>
+                    <li class='slide showing'><img src='../images/main/slider/slider1.jpg'></li>
+                    <li class='slide'><img src='../images/main/slider/slider2.jpg'></li>
+                    <li class='slide'><img src='../images/main/slider/slider3.jpg'></li>
+                    <li class='slide'><img src='../images/main/slider/slider4.jpg'></li>
+                    <li class='slide'><img src='../images/main/slider/slider5.jpg'></li>
+                </ul>
                 
            </div>
         </div>    
